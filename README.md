@@ -22,7 +22,7 @@ More information can be found in: https://arxiv.org/abs/2205.13504
 ## Use cases
 
 1. Electricity demand dataset
-2. Air-Quality dataset (CO & NO2)
+2. Air-Quality dataset (CO & NO$_2$)
 
 
 ## Get Started
