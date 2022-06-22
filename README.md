@@ -11,10 +11,10 @@ DLinear conducts direct multi-step forecasting by decomposing the time series in
 
 Although DLinear is simple, it has some compelling characteristics:
 
-- An $O(1)$ maximum signal traversing path length: The shorter the path, the better the dependencies are captured [18], making DLinear capable of capturing both short-range and long-range temporal relations.
-- High-efficiency: As each branch has only one linear layer, it costs much lower memory and fewer parameters and has a faster inference speed than existing Transformers.
-- Interpretability: After training, we can visualize weights from the seasonality and trend branches to have some insights on the predicted values [8].
-- Easy-to-use: DLinear can be obtained easily without tuning model hyper-parameters.
+- *An $O(1)$ maximum signal traversing path length*: The shorter the path, the better the dependencies are captured [18], making DLinear capable of capturing both short-range and long-range temporal relations.
+- *High-efficiency*: As each branch has only one linear layer, it costs much lower memory and fewer parameters and has a faster inference speed than existing Transformers.
+- *Interpretability*: After training, we can visualize weights from the seasonality and trend branches to have some insights on the predicted values [8].
+- *Easy-to-use*: DLinear can be obtained easily without tuning model hyper-parameters.
 
 More information can be found in: https://arxiv.org/abs/2205.13504
 
