@@ -40,7 +40,7 @@ More information can be found in: https://arxiv.org/abs/2205.13504
 
 
 ## Versions
-- Ver 1.0
+- Version 1.0
   - Basic implementation
   - Use cases: Electricity demand & Air-Quality forecasting
   - Evaluation per value of forecasting horizon
